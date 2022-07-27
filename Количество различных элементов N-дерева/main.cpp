@@ -3,6 +3,7 @@
 #include "Bst.h"
 #include <map>
 
+// пытался добавлять в bst, но что-то пошло не так
 // int bstLen(BstNode *b)
 // {
 //     if (b == nullptr) return 0;
@@ -25,6 +26,7 @@
 //     treeDfsBst(t, b);
 //     return bstLen(b->Root) / 2 + 1;
 // }
+// поэтому добавлял в map
 
 void treeDfsMap(NTreeNode *t, std::map<int, int> &m)
 {
